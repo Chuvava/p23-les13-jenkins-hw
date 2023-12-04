@@ -1,8 +1,10 @@
 package com.aefimov;
 
 import com.aefimov.pages.RegistrationPage;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Tag("demoqa")
 public class RegistrationFormTest extends BaseTest {
 
     RegistrationPage registrationPage = new RegistrationPage();
