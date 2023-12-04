@@ -20,6 +20,8 @@ public class BaseTest {
     @AfterEach
     void addAtachments() {
         helpers.Attach.screenshotAs("Last screenshot");
+        helpers.Attach.pageSource();
+        helpers.Attach.browserConsoleLogs();
     }
 
 }
